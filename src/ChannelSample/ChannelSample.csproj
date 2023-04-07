@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Update="readme.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>readme.md</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="readme.md">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>readme.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
 </Project>

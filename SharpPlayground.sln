@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{D2DDD6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplexorSample", "src\MultiplexorSample\MultiplexorSample.csproj", "{D4F26564-EC81-4917-ABB6-7398ECCDAD31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelSample", "src\ChannelSample\ChannelSample.csproj", "{E8566D50-7B8A-46F2-A038-2DF7BA51336B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChannelSample", "src\ChannelSample\ChannelSample.csproj", "{E8566D50-7B8A-46F2-A038-2DF7BA51336B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDemo", "src\ConsoleDemo\ConsoleDemo.csproj", "{EDF542FE-18C7-4F14-8E42-B859B59EA6A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleDemo", "src\ConsoleDemo\ConsoleDemo.csproj", "{EDF542FE-18C7-4F14-8E42-B859B59EA6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlowSample", "src\DataFlowSample\DataFlowSample.csproj", "{239E974F-40CD-49DD-936D-46E269C9489B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EDF542FE-18C7-4F14-8E42-B859B59EA6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDF542FE-18C7-4F14-8E42-B859B59EA6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDF542FE-18C7-4F14-8E42-B859B59EA6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239E974F-40CD-49DD-936D-46E269C9489B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239E974F-40CD-49DD-936D-46E269C9489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239E974F-40CD-49DD-936D-46E269C9489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239E974F-40CD-49DD-936D-46E269C9489B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{D4F26564-EC81-4917-ABB6-7398ECCDAD31} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
 		{E8566D50-7B8A-46F2-A038-2DF7BA51336B} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
 		{EDF542FE-18C7-4F14-8E42-B859B59EA6A4} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
+		{239E974F-40CD-49DD-936D-46E269C9489B} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC2D3DC9-3FD8-4A83-AF2E-226CF98F9671}

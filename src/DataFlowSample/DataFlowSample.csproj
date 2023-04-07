@@ -6,11 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Update="readme.md">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>readme.Designer.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
-
 </Project>

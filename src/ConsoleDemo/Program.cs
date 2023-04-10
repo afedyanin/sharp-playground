@@ -1,4 +1,5 @@
 ﻿using System.Threading.Channels;
+using DataFlowSample;
 
 namespace ConsoleDemo
 {
@@ -6,7 +7,8 @@ namespace ConsoleDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Console.WriteLine("Hello, World!");
+            JoinBlockExample1.Run();
         }
     }
 }

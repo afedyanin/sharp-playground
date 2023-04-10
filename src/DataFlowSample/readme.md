@@ -6,6 +6,9 @@
 - [TPL Dataflow in .Net Core, in Depth – Part 1](https://www.blinkingcaret.com/2019/05/15/tpl-dataflow-in-net-core-in-depth-part-1/)
 - [TPL Dataflow in .Net Core, in Depth – Part 2](https://www.blinkingcaret.com/2019/06/05/tpl-dataflow-in-net-core-in-depth-part-2/)
 - [TPL Dataflow](https://blog.wedport.co.uk/2020/06/22/data-processing-pipelines-with-tpl-dataflow-in-c-net-core/)
+- [Processing Pipelines Series - TPL Dataflow](https://jack-vanlightly.com/blog/2018/4/18/processing-pipelines-series-tpl-dataflow)
+- [TPL Dataflow by Example code samples for LINQPad](https://endjin.com/blog/2015/01/tpl-dataflow-by-example-code-samples-for-linqpad)
+
 
 ## RUS
 - [Поток данных (библиотека параллельных задач)](https://learn.microsoft.com/ru-ru/dotnet/standard/parallel-programming/dataflow-task-parallel-library)

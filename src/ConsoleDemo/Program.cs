@@ -1,14 +1,16 @@
 ﻿using System.Threading.Channels;
 using DataFlowSample;
+using IntegrationPatterns;
 
 namespace ConsoleDemo
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             // Console.WriteLine("Hello, World!");
-            JoinBlockExample1.Run();
+            // await MessageAggregatorExample.Run();
+            await MessageAggregatorExample.RunNoLock();
         }
     }
 }

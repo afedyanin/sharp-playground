@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataFlowSample\DataFlowSample.csproj" />
+    <ProjectReference Include="..\IntegrationPatterns\IntegrationPatterns.csproj" />
   </ItemGroup>
 
 </Project>

@@ -18,6 +18,8 @@ namespace DataFlowSample
                 jBlock.Target1.Post(i);
             }
 
+            Console.WriteLine(jBlock.Receive());
+
             for (int i = -9; i < 1; i++)
             {
                 jBlock.Target2.Post(i);

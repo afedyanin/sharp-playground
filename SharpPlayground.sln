@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChannelSample", "src\Channe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleDemo", "src\ConsoleDemo\ConsoleDemo.csproj", "{EDF542FE-18C7-4F14-8E42-B859B59EA6A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFlowSample", "src\DataFlowSample\DataFlowSample.csproj", "{239E974F-40CD-49DD-936D-46E269C9489B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataFlowSample", "src\DataFlowSample\DataFlowSample.csproj", "{239E974F-40CD-49DD-936D-46E269C9489B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationPatterns", "src\IntegrationPatterns\IntegrationPatterns.csproj", "{0031A067-3A5C-424C-A2BC-18C3533ED19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{239E974F-40CD-49DD-936D-46E269C9489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{239E974F-40CD-49DD-936D-46E269C9489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{239E974F-40CD-49DD-936D-46E269C9489B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0031A067-3A5C-424C-A2BC-18C3533ED19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0031A067-3A5C-424C-A2BC-18C3533ED19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0031A067-3A5C-424C-A2BC-18C3533ED19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0031A067-3A5C-424C-A2BC-18C3533ED19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{E8566D50-7B8A-46F2-A038-2DF7BA51336B} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
 		{EDF542FE-18C7-4F14-8E42-B859B59EA6A4} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
 		{239E974F-40CD-49DD-936D-46E269C9489B} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
+		{0031A067-3A5C-424C-A2BC-18C3533ED19F} = {ABB0ABD1-782B-4B32-ADE5-F9287B44BFC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC2D3DC9-3FD8-4A83-AF2E-226CF98F9671}
